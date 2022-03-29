@@ -11,7 +11,7 @@ import SwiftUI
 struct GamesSocialNetworkApp: App {
     var body: some Scene {
         WindowGroup {
-            Images() //aqui te esta diciendo que esta es una instancia de la estructura contentView()
+            reto() //aqui te esta diciendo que esta es una instancia de la estructura contentView()
         }
     }
 }
