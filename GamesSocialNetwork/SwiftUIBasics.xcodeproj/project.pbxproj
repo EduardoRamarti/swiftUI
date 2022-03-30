@@ -12,7 +12,7 @@
 		163640A527F28AA400192B97 /* HStackVStackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163640A427F28AA400192B97 /* HStackVStackSpacer.swift */; };
 		163640A727F28FAC00192B97 /* reto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163640A627F28FAC00192B97 /* reto.swift */; };
 		163640A927F297E200192B97 /* ZStackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163640A827F297E200192B97 /* ZStackPadding.swift */; };
-		1652AC8727EBB50000E877FA /* GamesSocialNetworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652AC8627EBB50000E877FA /* GamesSocialNetworkApp.swift */; };
+		1652AC8727EBB50000E877FA /* SwiftUIBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652AC8627EBB50000E877FA /* SwiftUIBasics.swift */; };
 		1652AC8927EBB50000E877FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652AC8827EBB50000E877FA /* ContentView.swift */; };
 		1652AC8B27EBB50400E877FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1652AC8A27EBB50400E877FA /* Assets.xcassets */; };
 		1652AC8E27EBB50400E877FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1652AC8D27EBB50400E877FA /* Preview Assets.xcassets */; };
@@ -30,8 +30,8 @@
 		163640A427F28AA400192B97 /* HStackVStackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackVStackSpacer.swift; sourceTree = "<group>"; };
 		163640A627F28FAC00192B97 /* reto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reto.swift; sourceTree = "<group>"; };
 		163640A827F297E200192B97 /* ZStackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackPadding.swift; sourceTree = "<group>"; };
-		1652AC8327EBB50000E877FA /* GamesSocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesSocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1652AC8627EBB50000E877FA /* GamesSocialNetworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesSocialNetworkApp.swift; sourceTree = "<group>"; };
+		1652AC8327EBB50000E877FA /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1652AC8627EBB50000E877FA /* SwiftUIBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasics.swift; sourceTree = "<group>"; };
 		1652AC8827EBB50000E877FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1652AC8A27EBB50400E877FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1652AC8D27EBB50400E877FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		1652AC7A27EBB50000E877FA = {
 			isa = PBXGroup;
 			children = (
-				1652AC8527EBB50000E877FA /* GamesSocialNetwork */,
+				1652AC8527EBB50000E877FA /* SwiftUIBasics */,
 				1652AC8427EBB50000E877FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,15 +65,15 @@
 		1652AC8427EBB50000E877FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1652AC8327EBB50000E877FA /* GamesSocialNetwork.app */,
+				1652AC8327EBB50000E877FA /* SwiftUIBasics.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1652AC8527EBB50000E877FA /* GamesSocialNetwork */ = {
+		1652AC8527EBB50000E877FA /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
-				1652AC8627EBB50000E877FA /* GamesSocialNetworkApp.swift */,
+				1652AC8627EBB50000E877FA /* SwiftUIBasics.swift */,
 				1652AC8827EBB50000E877FA /* ContentView.swift */,
 				16D603F527EE4B1E006C0D7E /* TextMod.swift */,
 				16D603F727EE53E4006C0D7E /* Buttons.swift */,
@@ -89,7 +89,7 @@
 				1652AC8C27EBB50400E877FA /* Preview Content */,
 				1652AC8A27EBB50400E877FA /* Assets.xcassets */,
 			);
-			path = GamesSocialNetwork;
+			path = SwiftUIBasics;
 			sourceTree = "<group>";
 		};
 		1652AC8C27EBB50400E877FA /* Preview Content */ = {
@@ -103,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1652AC8227EBB50000E877FA /* GamesSocialNetwork */ = {
+		1652AC8227EBB50000E877FA /* SwiftUIBasics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1652AC9127EBB50400E877FA /* Build configuration list for PBXNativeTarget "GamesSocialNetwork" */;
+			buildConfigurationList = 1652AC9127EBB50400E877FA /* Build configuration list for PBXNativeTarget "SwiftUIBasics" */;
 			buildPhases = (
 				1652AC7F27EBB50000E877FA /* Sources */,
 				1652AC8027EBB50000E877FA /* Frameworks */,
@@ -115,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = GamesSocialNetwork;
+			name = SwiftUIBasics;
 			productName = GamesSocialNetwork;
-			productReference = 1652AC8327EBB50000E877FA /* GamesSocialNetwork.app */;
+			productReference = 1652AC8327EBB50000E877FA /* SwiftUIBasics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1652AC7E27EBB50000E877FA /* Build configuration list for PBXProject "GamesSocialNetwork" */;
+			buildConfigurationList = 1652AC7E27EBB50000E877FA /* Build configuration list for PBXProject "SwiftUIBasics" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1652AC8227EBB50000E877FA /* GamesSocialNetwork */,
+				1652AC8227EBB50000E877FA /* SwiftUIBasics */,
 			);
 		};
 /* End PBXProject section */
@@ -173,7 +173,7 @@
 				1652AC8927EBB50000E877FA /* ContentView.swift in Sources */,
 				1663AE8827F379AB00E4FE37 /* TabViews.swift in Sources */,
 				163640A327F284A300192B97 /* Dividers.swift in Sources */,
-				1652AC8727EBB50000E877FA /* GamesSocialNetworkApp.swift in Sources */,
+				1652AC8727EBB50000E877FA /* SwiftUIBasics.swift in Sources */,
 				163640A727F28FAC00192B97 /* reto.swift in Sources */,
 				16CD1C9227F4C5A3006B632D /* Player.swift in Sources */,
 				163640A527F28AA400192B97 /* HStackVStackSpacer.swift in Sources */,
@@ -324,8 +324,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.GamesSocialNetwork;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.SwiftUIBasics;
+				PRODUCT_NAME = SwiftUIBasics;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,8 +353,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.GamesSocialNetwork;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.SwiftUIBasics;
+				PRODUCT_NAME = SwiftUIBasics;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1652AC7E27EBB50000E877FA /* Build configuration list for PBXProject "GamesSocialNetwork" */ = {
+		1652AC7E27EBB50000E877FA /* Build configuration list for PBXProject "SwiftUIBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1652AC8F27EBB50400E877FA /* Debug */,
@@ -373,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1652AC9127EBB50400E877FA /* Build configuration list for PBXNativeTarget "GamesSocialNetwork" */ = {
+		1652AC9127EBB50400E877FA /* Build configuration list for PBXNativeTarget "SwiftUIBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1652AC9227EBB50400E877FA /* Debug */,

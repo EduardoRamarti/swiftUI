@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/erm/Documents/swiftUI/GamesSocialNetwork/SwiftUIBasics.xcodeproj">
    </FileRef>
 </Workspace>
